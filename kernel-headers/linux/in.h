@@ -87,6 +87,11 @@ enum {
 };
 #endif
 
+#ifndef _IN_ADDR_T
+#define _IN_ADDR_T
+typedef uint32_t in_addr_t;
+#endif
+
 #if __UAPI_DEF_IN_ADDR
 /* Internet address. */
 struct in_addr {
