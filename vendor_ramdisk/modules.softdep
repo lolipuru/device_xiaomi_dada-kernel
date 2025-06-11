@@ -1,0 +1,32 @@
+# Soft dependencies extracted from modules themselves.
+softdep qti_dmof_scmi pre: qcom_scmi_client
+softdep cpu_mpam pre: mpam
+softdep cifs ecb
+softdep cifs hmac
+softdep cifs md5
+softdep cifs nls
+softdep cifs aes
+softdep cifs cmac
+softdep cifs sha256
+softdep cifs sha512
+softdep cifs aead2
+softdep cifs ccm
+softdep cifs gcm
+softdep mpam pre: qcom_scmi_client
+softdep qcom_pmu_lib pre: qcom_scmi_client
+softdep mpam_msc_slc pre: llcc_qcom
+softdep mpam_msc_slc pre: qcom_scmi_client
+softdep ipclite pre: qcom_hwspinlock
+softdep qsee_ipc_irq_bridge pre: qcom_ipcc
+softdep platform_mpam pre: mpam
+softdep smem pre: qcom_hwspinlock
+softdep slc_mpam pre: mpam
+softdep sched_penalty post: sched-walt
+softdep sched_penalty post: msm_performance
+softdep dwc3_msm pre: phy-generic phy-msm-snps-hs phy-msm-ssusb-qmp eud
+softdep pinctrl_msm pre: qcom-pdc
+softdep qcom_scmi_client pre: qcom_scmi_vendor
+softdep sched_walt pre: socinfo
+softdep memlat pre: qcom_scmi_client
+softdep llcc_heuristics pre: llcc_qcom
+softdep llcc_heuristics pre: qcom_scmi_client
