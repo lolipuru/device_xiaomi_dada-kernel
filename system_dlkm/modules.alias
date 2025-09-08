@@ -48,6 +48,7 @@ alias usb:v17EFp3054d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp3062d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp3069d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp3082d*dc*dsc*dp*ic*isc*ip*in* r8152
+alias usb:v17EFp3098d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp7205d*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp720Cd*dc*dsc*dp*ic*isc*ip*in* r8152
 alias usb:v17EFp7214d*dc*dsc*dp*ic*isc*ip*in* r8152
@@ -200,6 +201,7 @@ alias usb:v0ACEp1602d*dc*dsc*dp*ic*isc*ip*in* cdc_acm
 alias usb:v0ACEp1608d*dc*dsc*dp*ic*isc*ip*in* cdc_acm
 alias usb:v0ACEp1611d*dc*dsc*dp*ic*isc*ip*in* cdc_acm
 alias usb:v11CAp0201d*dc*dsc*dp*ic*isc*ip*in* cdc_acm
+alias usb:v1901p0006d*dc*dsc*dp*ic*isc*ip*in* cdc_acm
 alias usb:v1965p0018d*dc*dsc*dp*ic*isc*ip*in* cdc_acm
 alias usb:v22B8p7000d*dc*dsc*dp*ic*isc*ip*in* cdc_acm
 alias usb:v0803p3095d*dc*dsc*dp*ic*isc*ip*in* cdc_acm
@@ -1216,6 +1218,8 @@ alias of:N*T*Ccypress,cyw4373a0-bt hci_uart
 alias of:N*T*Ccypress,cyw4373a0-btC* hci_uart
 alias of:N*T*Cinfineon,cyw55572-bt hci_uart
 alias of:N*T*Cinfineon,cyw55572-btC* hci_uart
+alias of:N*T*Cqcom,qca2066-bt hci_uart
+alias of:N*T*Cqcom,qca2066-btC* hci_uart
 alias of:N*T*Cqcom,qca6174-bt hci_uart
 alias of:N*T*Cqcom,qca6174-btC* hci_uart
 alias of:N*T*Cqcom,qca6390-bt hci_uart
@@ -1240,6 +1244,8 @@ alias sdio:c02v*d* btsdio
 alias sdio:c03v*d* btsdio
 alias rtnl-link-vlan 8021q
 alias virtio:d00000013v* vmw_vsock_virtio_transport
+alias tls tls
+alias tcp-ulp-tls tls
 alias net-pf-29 can
 alias can-proto-1 can_raw
 alias can-proto-2 can_bcm

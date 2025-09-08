@@ -3,7 +3,8 @@
 /system/lib/modules/zsmalloc.ko:
 /system/lib/modules/libarc4.ko:
 /system/lib/modules/virtio_pci_modern_dev.ko:
-/system/lib/modules/virtio_pci.ko: /system/lib/modules/virtio_pci_modern_dev.ko
+/system/lib/modules/virtio_pci_legacy_dev.ko:
+/system/lib/modules/virtio_pci.ko: /system/lib/modules/virtio_pci_legacy_dev.ko /system/lib/modules/virtio_pci_modern_dev.ko
 /system/lib/modules/virtio_balloon.ko:
 /system/lib/modules/cctrng.ko:
 /system/lib/modules/virtio_console.ko:
@@ -47,6 +48,7 @@
 /system/lib/modules/btqca.ko: /system/lib/modules/bluetooth.ko /system/lib/modules/rfkill.ko
 /system/lib/modules/8021q.ko:
 /system/lib/modules/vmw_vsock_virtio_transport.ko:
+/system/lib/modules/tls.ko:
 /system/lib/modules/can.ko:
 /system/lib/modules/can-raw.ko: /system/lib/modules/can.ko
 /system/lib/modules/can-bcm.ko: /system/lib/modules/can.ko

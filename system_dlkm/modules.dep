@@ -3,7 +3,8 @@ kernel/kernel/kheaders.ko:
 kernel/mm/zsmalloc.ko:
 kernel/lib/crypto/libarc4.ko:
 kernel/drivers/virtio/virtio_pci_modern_dev.ko:
-kernel/drivers/virtio/virtio_pci.ko: kernel/drivers/virtio/virtio_pci_modern_dev.ko
+kernel/drivers/virtio/virtio_pci_legacy_dev.ko:
+kernel/drivers/virtio/virtio_pci.ko: kernel/drivers/virtio/virtio_pci_legacy_dev.ko kernel/drivers/virtio/virtio_pci_modern_dev.ko
 kernel/drivers/virtio/virtio_balloon.ko:
 kernel/drivers/char/hw_random/cctrng.ko:
 kernel/drivers/char/virtio_console.ko:
@@ -47,6 +48,7 @@ kernel/drivers/bluetooth/btbcm.ko: kernel/net/bluetooth/bluetooth.ko kernel/net/
 kernel/drivers/bluetooth/btqca.ko: kernel/net/bluetooth/bluetooth.ko kernel/net/rfkill/rfkill.ko
 kernel/net/8021q/8021q.ko:
 kernel/net/vmw_vsock/vmw_vsock_virtio_transport.ko:
+kernel/net/tls/tls.ko:
 kernel/net/can/can.ko:
 kernel/net/can/can-raw.ko: kernel/net/can/can.ko
 kernel/net/can/can-bcm.ko: kernel/net/can/can.ko
